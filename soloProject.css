@@ -1,0 +1,294 @@
+body {
+    margin: 0;    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 350px;
+    background: #525c8a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:200px auto 0 auto;
+
+    
+}
+#scoreBox{
+width: 155px;
+height: 120px;
+left: 82px;
+top: 125px;
+background-color: rgba(204, 226, 236, 0.888);
+
+}  
+#scoreBox2{
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background-color:rgba(204, 226, 236, 0.888);
+}
+#score-text{
+    width: 117px;
+    height: 120px;
+    margin: auto;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    
+    text-align: center;
+    
+    color: #F94F6D;
+    
+}
+#score-text2{
+width: 117px;
+height: 120px;
+margin: auto;
+
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+
+}
+h3{
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+
+}
+
+#buttonBox{
+width: 155px;
+height: 45px;
+margin: 30px 5px auto 5px;
+}
+#plusOne{
+width: 45px;
+height: 45px;
+left: 82px;
+top: 271px;
+
+}
+#plusOne-text{
+    width: 30px;
+    height: 25.77px;
+    left: 89px;
+    top: 280px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    text-align: center;
+    
+    color: #9AABD8;
+
+}
+#plusTwo{
+width: 45px;
+height: 45px;
+left: 136px;
+top: 271px;
+
+}
+#plusTwo-text{
+width: 30px;
+height: 25.77px;
+left: 143px;
+top: 280px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+text-align: center;
+color: #9AABD8;
+}
+#plusThree{
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+
+}
+#plusThree-text{
+width: 30px;
+height: 25.77px;
+left: 199px;
+top: 280px;
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+    
+text-align: center;  
+color: #9AABD8;
+
+}
+#buttonBox2{
+width: 155px;
+height: 45px;
+margin: 30px 5px auto 5px;
+}
+#plusOne2{
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    
+}
+#plusOne2-text{
+    width: 30px;
+    height: 25.77px;
+    left: 344px;
+    top: 280px;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    
+    text-align: center;
+    
+    color: #9AABD8;
+
+}
+#plusTwo2{
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;  
+}
+#plusTwo2-text{
+width: 30px;
+height: 25.77px;
+left: 398px;
+top: 280px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+#plusThree2{
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    
+}
+#plusThree2-text{
+width: 30px;
+height: 25.77px;
+left: 454px;
+top: 280px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+
+}
+
+#addDetails{
+    position: relative;
+    width: 575px;
+    height: 70px;
+    background: #525c8a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+
+}
+#newGame-btn{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    margin: 0 210px;
+    padding: 0;
+    border-radius: 30px;
+    background-color: #9AABD8;
+    border: none;
+    
+}
+#newGame-text{
+    height: 25.77px;
+    left: 143px;
+    top: 280px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+#moreDetails{
+    position: relative;
+    width: 575px;
+    height: 110px;
+    background: #525c8a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    padding: 0;
+
+}
+p{
+    
+    margin: auto;
+    color: #EEEEEE;
+}
+#addDetailsText{
+    margin: auto;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+
+}
